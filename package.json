@@ -1,7 +1,7 @@
 {
   "name": "vanilla-brochure-theme",
   "version": "1.0.6",
-  "description": "Vanilla theme for Brochure websites",
+  "description": "This is the Vanilla Framework theme for brochure based websites",
   "keywords": [
     "vanilla",
     "framework",
@@ -15,11 +15,16 @@
   },
   "license" : "LGPL-3.0",
   "scripts": {
-    "clean": "rm -r build; rm -r node_modules"
+    "build": "gulp build",
+    "serve": "gulp jekyll",
+    "test": "gulp test",
+    "watch": "gulp develop",
+    "clean": "rm -r build _jekyll/_site node_modules/ yarn-error.log .bundle",
+    "build-examples": "gulp build-examples"
   },
   "repository": {
-  "type" : "git",
-  "url" : "http://github.com/vanilla-framework/vanilla-brochure-theme"
+    "type" : "git",
+    "url" : "http://github.com/vanilla-framework/vanilla-brochure-theme"
   },
   "devDependencies": {
     "es6-promise": "^4.0.5",

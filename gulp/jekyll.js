@@ -5,3 +5,9 @@ var shell = require('gulp-shell');
 gulp.task('jekyll:serve', shell.task([
   'JEKYLL_ENV=development bundle exec jekyll serve'
 ]));
+
+// Build jekyll
+gulp.task('jekyll:build', shell.task([
+  'JEKYLL_ENV=development bundle exec jekyll build'
+]));
+
