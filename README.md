@@ -2,39 +2,24 @@
 
 This is the Vanilla Framework theme for brochure based websites.
 
-## Getting started
+## Theme local development
 
-```bash
-npm i
-gulp build
-```
-## Vanilla brochure theme local development
-
-To develop on Vanilla brochure theme itself, simply pull down the project and make changes.
-
-To test it locally using our recommended tooling, you need to first install dependencies.
-
-You need to have bundler installed:
+The simplest way to run Vanilla brochure theme is to first [install Docker](https://docs.docker.com/engine/installation/) (Linux users may need to [add your user to the `docker` group](https://docs.docker.com/engine/installation/linux/linux-postinstall/)), and then use the `./run` script to build the site:
 
 ``` bash
-gem install bundler
+./run build  # Build the CSS into the ./build/ directory
+# or
+./run watch  # Dynamically watch for changes to the Sass files and build automatically
 ```
 
-You need to have node and npm. To install, follow the [NPM installation instructions](https://docs.npmjs.com/getting-started/installing-node).
+### Viewing patterns in the browser
+
+The [examples directory](https://github.com/vanilla-framework/vanilla-brochure-theme/tree/develop/examples) contains example markup for each component of the framework.
+
+To view these examples in the browser, run the local server with:
 
 ``` bash
-bundle install
-npm install
+./run serve
 ```
 
-You can then compile your Sass changes into `build/css/build.css` by running:
-
-``` bash
-gulp build
-```
-
-Or you can run a local server to view your changes live with:
-
-``` bash
-gulp jekyll
-```
+Once the containers are setup, you can visit <http://0.0.0.0:8102/vanilla-brochure-theme/> in your browser to see the examples.
