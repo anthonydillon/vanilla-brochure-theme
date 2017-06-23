@@ -1,4 +1,14 @@
+@mixin theme-strip {
+  @include strip;
+  padding: $sp-x-large 0;
+
+  @media only screen and (min-width: $breakpoint-large) {
+    padding: 4rem 0;
+  }
+}
+
 @mixin theme-p-strip {
+  @include theme-p-strip--default;
   @include theme-p-strip--accent;
   @include theme-p-strip--image;
   @include theme-p-strip--bordered;
@@ -6,9 +16,23 @@
   @include theme-p-strip--deep;
 }
 
+@mixin theme-p-strip--default {
+  .p-strip {
+    @include theme-strip;
+
+    &--light {
+      @include theme-strip;
+    }
+
+    &--dark {
+      @include theme-strip;
+    }
+  }
+}
+
 @mixin theme-p-strip--accent {
   .p-strip--accent {
-    @include strip;
+    @include theme-strip;
     background-color: $color-accent;
     color: determine-text-color($color-accent);
   }
@@ -16,7 +40,7 @@
 
 @mixin theme-p-strip--image {
   .p-strip--image {
-    @include strip;
+    @include theme-strip;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -40,7 +64,7 @@
   [class^='p-strip'].is-shallow {
     padding: $sp-large 0;
 
-    @media only screen and (min-width: $breakpoint-medium) {
+    @media only screen and (min-width: $breakpoint-large) {
       padding: $sp-xx-large 0;
     }
   }
@@ -50,7 +74,7 @@
   [class^='p-strip'].is-deep {
     padding: $sp-xxx-large 0;
 
-    @media only screen and (min-width: $breakpoint-medium) {
+    @media only screen and (min-width: $breakpoint-large) {
       padding: 6rem 0;
     }
   }
