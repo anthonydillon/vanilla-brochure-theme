@@ -19,7 +19,8 @@
 'patterns_heading-icon',
 'patterns_buttons',
 'patterns_stepped-lists',
-'patterns_divider';
+'patterns_divider',
+'patterns_muted-heading';
 
 // Import theme utility files
 @import
@@ -37,4 +38,5 @@
   @include theme-p-stepped-list;
   @include theme-u-image-position;
   @include theme-p-heading-icon;
+  @include theme-p-muted-heading;
 }
