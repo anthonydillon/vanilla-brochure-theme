@@ -15,6 +15,11 @@
 
         @supports (columns: 1) {
           columns: 2;
+
+          .p-list__item {
+            display: inline-block;
+            width: 100%;
+          }
         }
 
         @supports not (columns: 1) {
