@@ -40,3 +40,21 @@
   @include theme-p-heading-icon;
   @include theme-p-muted-heading;
 }
+
+// Temp fix for spacing under single headings within rows
+// https://github.com/vanilla-framework/vanilla-framework/issues/1091
+.row > {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+
+    &:only-child {
+      margin-bottom: $sp-large;
+    }
+  }
+}
+
