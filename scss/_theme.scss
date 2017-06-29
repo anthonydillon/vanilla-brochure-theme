@@ -44,11 +44,7 @@
 // Temp fix for spacing under single headings within rows
 // https://github.com/vanilla-framework/vanilla-framework/issues/1091
 // Adds padding to single element rows
-.row > *:only-child:not([class^="#{$grid-col-name}-"]) {
-  @include default-vertical-spacing;
-}
-
-.row:first-of-type > *:only-child:not([class^="#{$grid-col-name}-"]) {
+@mixin default-vertical-spacing-reversed {
   margin-bottom: 1.25rem;
   margin-top: 0;
 
@@ -58,5 +54,22 @@
 
   @media screen and (min-width: #{$breakpoint-large}) {
     margin-bottom: $sp-x-large;
+  }
+ }
+
+// Adds padding to single element rows
+.row {
+  &:first-of-type > *:only-child {
+    &:not([class^="#{$grid-col-name}-"]),
+    & > *:not([class^="#{$grid-col-name}-"]) {
+      @include default-vertical-spacing-reversed;
+    }
+  }
+
+  & > *:only-child {
+    &:not([class^="#{$grid-col-name}-"]),
+    & > *:not([class^="#{$grid-col-name}-"]) {
+      @include default-vertical-spacing;
+    }
   }
 }
