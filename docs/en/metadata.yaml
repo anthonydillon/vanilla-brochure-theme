@@ -1,0 +1,40 @@
+navigation:
+
+- title: Patterns
+  children:
+
+  - location: patterns/buttons.md
+    title: Buttons
+
+  - location: patterns/card.md
+    title: Card
+
+  - location: patterns/divider.md
+    title: Divider
+
+  - location: patterns/heading-icon.md
+    title: Heading icon
+
+  - location: patterns/media-object.md
+    title: Media object
+
+  - location: patterns/muted-heading.md
+    title: Muted heading
+
+  - location: patterns/split-list.md
+    title: Split list
+
+  - location: patterns/stepped-list.md
+    title: Stepped list
+
+  - location: patterns/strip.md
+    title: Strip
+
+  - location: patterns/ticked-list.md
+    title: Ticked list
+
+- title: Utilities
+  children:
+
+    - location: utilities/image-position.md
+      title: Image position
