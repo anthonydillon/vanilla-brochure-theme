@@ -50,3 +50,12 @@ This state gives the strip smaller vertical padding.
   class="js-example">
   View example of the pattern strip is-shallow
 </a>
+
+---
+
+#### Vanilla patterns
+
+These patterns are an extention or addition of the patterns available on Vanilla
+framework.
+
+[Vanilla framework strip patterns](https://docs.vanillaframework.io/en/patterns/strip)

@@ -11,3 +11,12 @@ If you wish to split the items in a list into two columns above `$breakpoint-med
   class="js-example">
   View example of the patterns split list
 </a>
+
+---
+
+#### Vanilla patterns
+
+These patterns are an extention or addition of the patterns available on Vanilla
+framework.
+
+[Vanilla framework list patterns](https://docs.vanillaframework.io/en/patterns/lists)

@@ -12,3 +12,12 @@ conjunction with a strip image.
   class="js-example">
   View example of the patterns card overlay
 </a>
+
+---
+
+#### Vanilla patterns
+
+These patterns are an extention or addition of the patterns available on Vanilla
+framework.
+
+[Vanilla framework card patterns](https://docs.vanillaframework.io/en/patterns/card)

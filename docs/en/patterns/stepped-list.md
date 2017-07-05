@@ -12,3 +12,12 @@ used on a grey strip as the description sections are displayed in a white box.
   class="js-example">
   View example of the pattern stepped list detailed
 </a>
+
+---
+
+#### Vanilla patterns
+
+These patterns are an extention or addition of the patterns available on Vanilla
+framework.
+
+[Vanilla framework list patterns](https://docs.vanillaframework.io/en/patterns/lists)

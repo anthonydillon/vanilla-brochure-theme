@@ -11,3 +11,12 @@ A divider is used to separate related content items.
   class="js-example">
   View example of the patterns divider
 </a>
+
+---
+
+#### Vanilla patterns
+
+These patterns are an extention or addition of the patterns available on Vanilla
+framework.
+
+[Vanilla framework list patterns](https://docs.vanillaframework.io/en/patterns/lists)
