@@ -7,7 +7,7 @@ title: Media object
 
 A media object should be used to display events or articles.
 
-<a href="https://vanilla-framework.github.io/vanilla-brochure-theme/examples/patterns/media-object"
+<a href="https://vanilla-framework.github.io/vanilla-brochure-theme/examples/patterns/media-object/"
   class="js-example">
   View example of the pattern media object
 </a>
