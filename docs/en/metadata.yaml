@@ -38,3 +38,6 @@ navigation:
 
     - location: utilities/image-position.md
       title: Image position
+
+- location: /
+  title: Vanilla framework
