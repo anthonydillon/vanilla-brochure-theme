@@ -20,7 +20,7 @@ This pattern allows for an image background to be appear as a background on a st
 You can also add the classes '.is-light' and '.is-dark' to the strips to describe the background image.
 These classes will then override the text color to ensure it remains visible.
 
-<a href="https://vanilla-framework.github.io/vanilla-brochure-theme/examples/patterns/strip/image"
+<a href="https://vanilla-framework.github.io/vanilla-brochure-theme/examples/patterns/strip/image/"
   class="js-example">
   View example of the pattern strip image
 </a>
