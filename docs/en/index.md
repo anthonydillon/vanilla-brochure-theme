@@ -2,11 +2,11 @@
 title: Home
 ---
 
-## Vanilla Brochure Theme
+## Brochure theme documentation
 
-This is the Vanilla Framework theme for brochure based websites.
+This is the Vanilla framework theme for brochure based websites.
 
-Vanilla Framework contains a basic CSS grid and pattern classes, and is extended by this theme to add and modify patterns.
+Vanilla framework contains a basic CSS grid and pattern classes, and is extended by this theme to add and modify patterns.
 
 Sites created within Canonical should follow this style guide closely, whereas external sites are free to adapt and expand the existing components to their needs.
 

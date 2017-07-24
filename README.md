@@ -1,6 +1,6 @@
 # Vanilla Brochure Theme
 
-This is the Vanilla Framework theme for brochure based websites.
+This is the Vanilla framework theme for brochure based websites.
 
 ## Theme local development
 

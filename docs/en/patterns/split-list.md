@@ -3,7 +3,7 @@ collection: patterns
 title: Split list
 ---
 
-## Split List - Detailed
+## Split list: detailed
 
 If you wish to split the items in a list into two columns above `$breakpoint-medium`, you can do so by adding the class `is-split` to the list element.
 

@@ -3,7 +3,7 @@ collection: patterns
 title: Stepped List - Detailed
 ---
 
-## Stepped List - Detailed
+## Stepped list: detailed
 
 Stepped list should be used for step by step instructions. This pattern is best
 used on a grey strip as the description sections are displayed in a white box.
