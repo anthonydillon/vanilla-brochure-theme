@@ -40,4 +40,6 @@ navigation:
       title: Image position
 
 - location: /
-  title: Vanilla framework
+  title: docs.vanillaframework.io
+  external: true
+
